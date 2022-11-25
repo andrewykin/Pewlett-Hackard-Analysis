@@ -54,4 +54,5 @@ FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no, from_date)
 );
 
+--Test query
 SELECT * FROM departments
